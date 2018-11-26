@@ -1,0 +1,18 @@
+1 4 7 9
+2 5 7 10
+3 6 7 9
+2 4 7 9
+1 6 8 9
+3 5 8 10
+1 4 8 10
+
+1 = senior
+2 = youth
+3 = junoir
+4 = middle
+5 = low
+6 = high
+7 = yes
+8 = no
+9 = yes
+10 = no

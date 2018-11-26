@@ -1,0 +1,82 @@
+Citation Request:
+   This lymphography domain was obtained from the University Medical Centre,
+   Institute of Oncology, Ljubljana, Yugoslavia.  Thanks go to M. Zwitter and 
+   M. Soklic for providing the data.  Please include this citation if you plan
+   to use this database.
+
+1. Title: Lymphography Domain
+
+2. Sources: 
+    (a) See Above.
+    (b) Donors: Igor Kononenko, 
+                University E.Kardelj
+                Faculty for electrical engineering
+                Trzaska 25
+                61000 Ljubljana (tel.: (38)(+61) 265-161
+
+                Bojan Cestnik
+                Jozef Stefan Institute
+                Jamova 39
+                61000 Ljubljana
+                Yugoslavia (tel.: (38)(+61) 214-399 ext.287) 
+   (c) Date: November 1988
+
+3. Past Usage: (sveral)
+    1. Cestnik,G., Konenenko,I, & Bratko,I. (1987). Assistant-86: A
+       Knowledge-Elicitation Tool for Sophisticated Users.  In I.Bratko
+       & N.Lavrac (Eds.) Progress in Machine Learning, 31-45, Sigma Press.
+       -- Assistant-86: 76% accuracy
+    2. Clark,P. & Niblett,T. (1987). Induction in Noisy Domains.  In
+       I.Bratko & N.Lavrac (Eds.) Progress in Machine Learning, 11-30,
+       Sigma Press.
+       -- Simple Bayes: 83% accuracy
+       -- CN2 (99% threshold): 82%
+    3. Michalski,R., Mozetic,I. Hong,J., & Lavrac,N. (1986).  The Multi-Purpose
+       Incremental Learning System AQ15 and its Testing Applications to Three
+       Medical Domains.  In Proceedings of the Fifth National Conference on
+       Artificial Intelligence, 1041-1045. Philadelphia, PA: Morgan Kaufmann.
+       -- Experts: 85% accuracy (estimate)
+       -- AQ15: 80-82%
+
+4. Relevant Information:
+     This is one of three domains provided by the Oncology Institute
+     that has repeatedly appeared in the machine learning literature.
+     (See also breast-cancer and primary-tumor.)
+
+5. Number of Instances: 148
+
+6. Number of Attributes: 19 including the class attribute
+
+7. Attribute information:
+    --- NOTE: All attribute values in the database have been entered as
+              numeric values corresponding to their index in the list
+              of attribute values for that attribute domain as given below.
+    s 1. class: normal find, metastases, malign lymph, fibrosis  ; [60-63]
+    a 2. lymphatics: normal, arched, deformed, displaced ; 5-8    [ 1-4]
+    b 3. block of affere: no, yes ; 9 10   [5-6]
+    c 4. bl. of lymph. c: no, yes ; 11 12   [7-8]
+    d 5. bl. of lymph. s: no, yes ; 13 14 [9-10]
+    e 6. by pass: no, yes ;15 16 [11-12]
+    f 7. extravasates: no, yes ; 17 18   [13-14]
+    g 8. regeneration of: no, yes ; 19 20 [15-16]
+    h 9. early uptake in: no, yes ; 21 22 [17-18]
+   i 10. lym.nodes dimin: 0-3 ; 23 25 [19-21]
+   j 11. lym.nodes enlar: 1-4 ; 26 -29  [22-25]
+   k 12. changes in lym.: bean, oval, round  ; 30-32 [26-28]
+   l 13. defect in node: no, lacunar, lac. marginal, lac. central 33-36 [29-32]
+   m 14. changes in node: no, lacunar, lac. margin, lac. central 37-40 [33-36]
+   n 15. changes in stru: no, grainy, drop-like, coarse, diluted, reticular, 
+                        stripped, faint, 41-48  [37-44]
+   o 16. special forms: no, chalices, vesicles 49-51 [45-47]
+   p 17. dislocation of: no, yes 52 53 [48-49]
+   q 18. exclusion of no: no, yes 54 55 [50-51]
+   r 19. no. of nodes in: 0-9, 10-19, 20-29, 30-39, 40-49, 50-59, 60-69, >=70 [52-59]
+
+8. Missing Attribute Values: None
+
+9. Class Distribution: 
+    Class:        Number of Instances:
+    normal find:  2
+    metastases:   81
+    malign lymph: 61
+    fibrosis:     4
